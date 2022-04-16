@@ -1,4 +1,4 @@
-package day16HomeWork;
+package HomeWork.day16;
 
 /**
  * 请定义一个交通工具(Vehicle) 类

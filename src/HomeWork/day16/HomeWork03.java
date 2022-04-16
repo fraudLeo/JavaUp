@@ -1,4 +1,4 @@
-package day16HomeWork;
+package HomeWork.day16;
 
 /**
  * 编写java程序模拟简单的计算器

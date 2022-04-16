@@ -1,4 +1,4 @@
-package day16HomeWork;
+package HomeWork.day16;
 
 /**
  * 编写java程序用于显示人的年龄和姓名
