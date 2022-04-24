@@ -5,6 +5,8 @@ package temp;
  */
 
 
+import java.util.Random;
+
 /**
  * 1. JDK类库的根类: Object
  *      1.1 这个老祖宗库的方法是所有子类都通用的,任何一个类都默认继承Object,就算没有直接继承,最终也会间接继承
@@ -21,6 +23,21 @@ package temp;
  *
  */
 public class Temp {
+    public static void main(String[] args) {
+        Random random = new Random();
+        int[] ints = new int[5];
+        int index = 0;
+        while(index<ints.length) {
+            //创建变量接受random值
+            int a = random.nextInt(50);
+            if(!ints.toString().contains(String.valueOf(a))) {
+                ints[index++] = a;
+            }
+        }
+        for (int i = 0; i < 5; i++) {
+            System.out.println(ints[i]);
+        }
+    }
 
 
 }
